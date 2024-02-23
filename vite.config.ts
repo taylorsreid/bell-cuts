@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
-  base: './'
+  base: './' // required when using github pages, otherwise produces incorrect link to js and css in build folder
 })
